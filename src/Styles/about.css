@@ -1,0 +1,102 @@
+.about {
+    height: auto;
+    padding-top: 120px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(../assets/skull.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.about  h1 {
+  font-family: 'Tatti';
+  font-weight: lighter;
+}  
+
+.about, h1 p{
+    font-family:'Montserrat', sans-serif;
+  }
+
+  /* ARTIST ONE */
+
+  .artistOne{
+    display: flex;
+    flex-direction: row;
+    background-color: #98896aaf;
+    width: 80%;
+    border-radius: 50px;
+    margin-bottom: 3rem;
+  }
+
+  .imageLeft {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0 0 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .about-one-info{
+    width: 60%;
+    margin-left: 10vh;
+    line-height: 135%;
+  }
+
+  /* ARTIST TWO */
+  
+  .artistTwo{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    padding-right: 50px ;
+    background-color: #dda25eb4;
+    width: 80%;
+    border-radius: 50px;
+    margin-bottom: 3rem;
+  }
+
+  .imageRight {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0 0 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .about-two-info{
+    text-align: end;
+    padding-right: 10vh;
+    width: 60%;
+    line-height: 135%;
+  }
+
+
+  @media only screen and (max-width: 850px ) {
+
+    .artistOne , .artistTwo {
+      width: 90%;
+      flex-direction: column;
+      align-self: center;
+    }
+
+    .imageLeft , .imageRight {
+      justify-content: center;
+      align-self: center;
+      background-size: cover;
+      margin: 0;
+    }
+
+    .about-one-info , .about-two-info {
+      margin: 0;
+      width: 90%;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .about h1 {
+      text-align: left;
+    }
+  }
