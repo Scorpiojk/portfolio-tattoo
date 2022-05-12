@@ -5,22 +5,27 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Artists from "./pages/Artists"
 import Contact from './pages/Contact';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
 import Footer from "./components/Footer"
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/Menu" exact component={Menu} />
-          <Route path="/Artists" exact component={Artists} />
-          <Route path="/Contact" exact component={Contact} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Menu" element={<Menu />} />
+          <Route path="/Artists" element={<Artists />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
         <Footer />
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

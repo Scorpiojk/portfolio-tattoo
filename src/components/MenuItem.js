@@ -1,4 +1,3 @@
-
 import React, {useState} from "react";
 import { MenuList } from "../helpers/MenuList";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
