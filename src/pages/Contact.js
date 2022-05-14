@@ -7,15 +7,13 @@ import handleWhatsAppPress from '../helpers/wppPress'
 function Contact() {
   return (
     <div className='container'>
-      <div className="contact">
-        <div className='rightSide'>
-            <h1> Contactanos</h1>
+        <div className="contact">
+            <h2> Contactanos</h2>
             <span onClick={handleWhatsAppPress} >  
             <WhatsAppIcon className="wppIcon" /> WhatsApp
             </span>
         </div>
-        </div>
-      <Map />
+        <Map />
     </div>
   )
 }

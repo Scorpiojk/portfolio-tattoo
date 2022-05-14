@@ -9,14 +9,13 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  BrowserRouter,
 } from "react-router-dom";
 import Footer from "./components/Footer"
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,7 +24,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

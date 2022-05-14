@@ -55,28 +55,35 @@
       justify-content: center;
       align-items: center;
     }
+
+    .headerContainer hr{
+      width: 100%;
+      margin-top: 50px;
+    }
   
     .headerContainer {
       border-radius: 10px;
-      width: 100%;
+      width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       color: white;
+      word-spacing: 9px;
     }
   
     .headerContainer h1 {
-      font-size: 40px;
-      height: 30px;
-      color: gold;
+      line-height: 3rem;
+      font-size: 30px;
+      height: 40px;
+      color: rgb(255, 223, 148);
       font-weight: bold;
       text-align: center;
       margin-bottom: 80px;
     }
   
     .headerContainer p {
-
+      line-height: 3rem;
       font-size: 20px;
       color: white;
       text-align: center;

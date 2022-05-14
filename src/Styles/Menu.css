@@ -6,7 +6,7 @@
 .menu {
   padding-top: 80px;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,7 @@
 .menu .menuTitle {
   font-family: 'Tatti';
   font-size: 40px;
+  color: #000000;
 }
 
 .menuList {
@@ -88,13 +89,24 @@
 }
 
 @media only screen and (max-width: 850px) {
-  
+ 
+  .menuTitle{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow:  5px 1px 1px black;
+  }
+
   .slider {
     align-content: center;
+    width: 90%;
+    height: 70vmax;
   }
 
   .image {
-    width: 80vh;
+    height: 50vmax;
+    width: 80vw;
   }
 
 
