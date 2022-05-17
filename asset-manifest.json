@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio-tattoo/static/css/main.76ccb8e3.css",
+    "main.js": "/portfolio-tattoo/static/js/main.662fca6d.js",
+    "static/media/Tattoo7.jpg": "/portfolio-tattoo/static/media/Tattoo7.68f05483ac2c616698d2.jpg",
+    "static/media/framework.jpg": "/portfolio-tattoo/static/media/framework.2d5c2b3fcbf8b844569f.jpg",
+    "static/media/Tattoo3.jpg": "/portfolio-tattoo/static/media/Tattoo3.99599a7f7d40c2a9d6f0.jpg",
+    "static/media/Tattoo6.jpg": "/portfolio-tattoo/static/media/Tattoo6.a43d2eec05afe532fc6d.jpg",
+    "static/media/Tattoo2.jpg": "/portfolio-tattoo/static/media/Tattoo2.746499a2475f76fff293.jpg",
+    "static/media/measeruments.jpg": "/portfolio-tattoo/static/media/measeruments.ec20925c6dae474ffe37.jpg",
+    "static/media/tattoo4.jpg": "/portfolio-tattoo/static/media/tattoo4.df3fa3ff885b900403f8.jpg",
+    "static/media/attention2.jpg": "/portfolio-tattoo/static/media/attention2.f999602c14daad58776a.jpg",
+    "static/media/tattoo5.jpg": "/portfolio-tattoo/static/media/tattoo5.0205354bb75844148e26.jpg",
+    "static/media/Tattoo1.jpg": "/portfolio-tattoo/static/media/Tattoo1.9ef1f835957a73bdb263.jpg",
+    "static/media/studio.jpg": "/portfolio-tattoo/static/media/studio.4f9fae3df7316584e382.jpg",
+    "static/media/ink.jpg": "/portfolio-tattoo/static/media/ink.2d9db09cd85c49dc1035.jpg",
+    "static/media/Tattoo8.jpg": "/portfolio-tattoo/static/media/Tattoo8.466d0ebbfbbf9a5ab6ae.jpg",
+    "static/media/attention.jpg": "/portfolio-tattoo/static/media/attention.63faf603455a47e258ea.jpg",
+    "static/media/ariel.jpg": "/portfolio-tattoo/static/media/ariel.cd75036bc22fed3998f3.jpg",
+    "static/media/Nico.jpg": "/portfolio-tattoo/static/media/Nico.f5014a6342b8057cdf1f.jpg",
+    "static/media/paper.jpg": "/portfolio-tattoo/static/media/paper.78c665887c86f04c2af5.jpg",
+    "static/media/Nico-draw.jpg": "/portfolio-tattoo/static/media/Nico-draw.5f35086597598c3c0fd8.jpg",
+    "static/media/skull.jpg": "/portfolio-tattoo/static/media/skull.d0e0de7d2fa5d302823f.jpg",
+    "static/media/pizzaLogo.png": "/portfolio-tattoo/static/media/pizzaLogo.caadc1be8c1bbe6a2d7b.png",
+    "static/media/TATTI___.TTF": "/portfolio-tattoo/static/media/TATTI___.21dfc6b10efefe99aa58.TTF",
+    "index.html": "/portfolio-tattoo/index.html",
+    "main.76ccb8e3.css.map": "/portfolio-tattoo/static/css/main.76ccb8e3.css.map",
+    "main.662fca6d.js.map": "/portfolio-tattoo/static/js/main.662fca6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76ccb8e3.css",
+    "static/js/main.662fca6d.js"
+  ]
+}
